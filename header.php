@@ -65,7 +65,7 @@
                         <span class="count"><?php echo get_post_meta($post->ID, 'dotGood', true) ? get_post_meta($post->ID, 'dotGood', true) : '0'; ?></span>赞
                     </a>
                 </div>
-				<!--
+
                 <div class="socials">
                     <div class="donate">
                         <a href="javascript:;"><i class="czs-coin-l s"></i><i class="czs-coin h"></i> 赏</a>
@@ -83,7 +83,6 @@
                         <div class="qrcode"><div class="img-box"></div> <i>移动设备上继续阅读</i></div>
                     </div>
                 </div>
-				-->
             <?php } else { ?>
                 <h2 class="fixed-title"></h2>
                 <div class="fixed-menus"></div>
